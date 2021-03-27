@@ -18,4 +18,4 @@ yes | sudo apt install chromium-browser
 COMMENTOUT
 
 sudo apt update
-yes | sudo apt install vlc
+sudo apt install -y vlc
