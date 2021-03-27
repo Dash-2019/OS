@@ -5,22 +5,21 @@ echo installing package 21/03/27
 #<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
 sudo apt update
 
-yes | sudo apt install curl
+# yes | sudo apt install curl
 yes | sudo apt install git
 yes | sudo snap install atom --classic
 
 
-sudo apt update
-yes | sudo apt install chromium-browser
+#0sudo apt install -y chromium-browser
 #yes | sudo snap install chromium
 
-sudo apt update
+
 sudo apt install -y vlc
 #sudo apt install -y vlc-plugin-access-extra libbluray-bdj libdvdcss2
 
 
 #>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
-COMMENTOUT
+# COMMENTOUT
 
 
 # or use　--------------------------
