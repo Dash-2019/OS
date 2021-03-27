@@ -1,8 +1,8 @@
 #!/bin/bash
 
-echo install curl
+echo installing package 21/03/27
 << COMMENTOUT
-# sudo apt install curl
+yes | sudo apt install curl
 yes | sudo apt install git
 
 COMMENTOUT
