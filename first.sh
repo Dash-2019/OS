@@ -3,6 +3,16 @@
 echo installing package 21/03/27
 << COMMENTOUT
 #<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+
+wget -qO - https://packagecloud.io/AtomEditor/atom/gpgkey | sudo apt-key add -
+sudo sh -c 'echo "deb [arch=amd64] https://packagecloud.io/AtomEditor/atom/any/ any main" > /etc/apt/sources.list.d/atom.list'
+sudo apt update
+yes | sudo apt install atom
+
+#>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+COMMENTOUT
+
+
 sudo apt update
 sudo apt -y install git
 
@@ -31,12 +41,7 @@ sudo apt-get update
 # sudo snap install typora
 sudo apt-get -y install typora
 
-#>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
-COMMENTOUT
 
-wget -qO - https://packagecloud.io/AtomEditor/atom/gpgkey | sudo apt-key add -
-sudo sh -c 'echo "deb [arch=amd64] https://packagecloud.io/AtomEditor/atom/any/ any main" > /etc/apt/sources.list.d/atom.list'
-sudo apt update
-yes | sudo apt install atom
+
 
 
