@@ -1,23 +1,23 @@
 #!/bin/bash
 
 echo installing package 21/03/27
-#<< COMMENTOUT
+<< COMMENTOUT
 #<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
 sudo apt update
-
-# yes | sudo apt install curl
 sudo apt -y install git
-sudo snap install -y atom --classic
-sudo apt install -y chromium-browser
 
+sudo apt update
+sudo snap install -y atom --classic
+
+sudo apt update
+sudo apt install -y chromium-browser
 #yes | sudo snap install chromium
 
-
+sudo apt update
 sudo apt install -y vlc
 #sudo apt install -y vlc-plugin-access-extra libbluray-bdj libdvdcss2
 
-#>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
-# COMMENTOUT
+
 
 # or use　--------------------------
 # sudo apt-key adv --keyserver keyserver.ubuntu.com --recv-keys BA300B7755AFCFAE
@@ -31,6 +31,12 @@ sudo apt-get update
 # sudo snap install typora
 sudo apt-get -y install typora
 
+#>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+COMMENTOUT
 
+wget -qO - https://packagecloud.io/AtomEditor/atom/gpgkey | sudo apt-key add -
+sudo sh -c 'echo "deb [arch=amd64] https://packagecloud.io/AtomEditor/atom/any/ any main" > /etc/apt/sources.list.d/atom.list'
+sudo apt update
+sudo apt install atom
 
 
