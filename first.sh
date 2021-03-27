@@ -1,26 +1,23 @@
 #!/bin/bash
 
 echo installing package 21/03/27
-<< COMMENTOUT
+#<< COMMENTOUT
 #<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
 sudo apt update
 
 # yes | sudo apt install curl
-yes | sudo apt install git
-yes | sudo snap install atom --classic
+sudo apt -y install git
+sudo snap install -y atom --classic
+sudo apt install -y chromium-browser
 
-
-#0sudo apt install -y chromium-browser
 #yes | sudo snap install chromium
 
 
 sudo apt install -y vlc
 #sudo apt install -y vlc-plugin-access-extra libbluray-bdj libdvdcss2
 
-
 #>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
 # COMMENTOUT
-
 
 # or use　--------------------------
 # sudo apt-key adv --keyserver keyserver.ubuntu.com --recv-keys BA300B7755AFCFAE
