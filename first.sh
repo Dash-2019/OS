@@ -1,6 +1,7 @@
 #!/bin/bash
 
-echo hoge
 echo hello sou
-sudo apt install curl
+# sudo apt install curl
+sudo apt-get install git
+dpkg -l git
 
