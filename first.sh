@@ -7,7 +7,7 @@ sudo apt update
 sudo apt -y install git
 
 sudo apt update
-sudo snap install -y atom --classic
+yes | sudo snap install atom --classic
 
 sudo apt update
 sudo apt install -y chromium-browser
