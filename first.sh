@@ -4,15 +4,6 @@ echo installing package 21/03/27
 << COMMENTOUT
 #<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<--
 
-wget -qO - https://packagecloud.io/AtomEditor/atom/gpgkey | sudo apt-key add -
-sudo sh -c 'echo "deb [arch=amd64] https://packagecloud.io/AtomEditor/atom/any/ any main" > /etc/apt/sources.list.d/atom.list'
-sudo apt update
-yes | sudo apt install atom
-
-#>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
-COMMENTOUT
-
-
 sudo apt update
 sudo apt -y install git
 
@@ -29,7 +20,7 @@ sudo apt install -y vlc
 
 
 
-# or use　--------------------------
+# typora--------------------------
 # sudo apt-key adv --keyserver keyserver.ubuntu.com --recv-keys BA300B7755AFCFAE
 wget -qO - https://typora.io/linux/public-key.asc | sudo apt-key add -
 
@@ -40,8 +31,12 @@ sudo apt-get update
 # install typora
 # sudo snap install typora
 sudo apt-get -y install typora
+# ----------------------------------------typora
 
 
+#>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+COMMENTOUT
 
-
+sudo apt update
+yes | sudo snap install pycharm-community --classic --edge
 
