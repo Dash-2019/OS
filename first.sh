@@ -38,5 +38,7 @@ sudo apt-get -y install typora
 COMMENTOUT
 
 sudo apt update
+#No module named 'distutils.util'でget-pip.pyで使えない
+sudo apt-get install -y python3-distutils
 yes | sudo snap install pycharm-community --classic --edge
 
