@@ -42,3 +42,9 @@ sudo apt update
 sudo apt-get install -y python3-distutils
 yes | sudo snap install pycharm-community --classic --edge
 
+# upgrade Libreoffice-----------------
+
+yes | sudo add-apt-repository ppa:libreoffice/ppa 
+sudo apt-get update 
+yes | sudo apt-get dist-upgrade 
+
