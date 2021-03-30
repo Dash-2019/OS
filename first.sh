@@ -48,3 +48,5 @@ yes | sudo add-apt-repository ppa:libreoffice/ppa
 sudo apt-get update 
 yes | sudo apt-get dist-upgrade 
 
+sudo apt install -y keepassxc
+
