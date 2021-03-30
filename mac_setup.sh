@@ -1,2 +1,3 @@
 #!/bin/bash
-echo macsetup0330
+echo mac_setup2021/3/30
+brew install syncthing
