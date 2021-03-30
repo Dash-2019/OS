@@ -1,1 +1,1 @@
-echo mac setup
+echo macsetup0330
