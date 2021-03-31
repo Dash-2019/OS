@@ -45,6 +45,14 @@ yes | sudo apt-get dist-upgrade
 sudo apt install -y keepassxc
 
 #9 -----------------------------------------
+sudo apt-add-repository ppa:fish-shell/release-3
+sudo apt update
+sudo apt install -y fish
+
+#>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+COMMENTOUT
+
+#10 -----------------------------------------
 #https://apt.syncthing.net/
 sudo curl -s -o /usr/share/keyrings/syncthing-archive-keyring.gpg https://syncthing.net/release-key.gpg
 
@@ -57,16 +65,13 @@ echo "deb [signed-by=/usr/share/keyrings/syncthing-archive-keyring.gpg] https://
 # Increase preference of Syncthing's packages ("pinning")
 printf "Package: *\nPin: origin apt.syncthing.net\nPin-Priority: 990\n" | sudo tee /etc/apt/preferences.d/syncthing
 
+
 # Update and install syncthing:
 sudo apt-get update
 sudo apt-get install -y syncthing
 
 
-#>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
-COMMENTOUT
 
-sudo apt-add-repository ppa:fish-shell/release-3
-sudo apt update
-sudo apt install -y fish
+
 
 
