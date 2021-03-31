@@ -29,9 +29,6 @@ sudo add-apt-repository 'deb https://typora.io/linux ./'
 sudo apt-get update
 sudo apt-get -y install typora
 
-#>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
-COMMENTOUT
-
 #-6----------------------------------------
 sudo apt update
 #No module named 'distutils.util'でget-pip.pyで使えない
@@ -63,5 +60,13 @@ printf "Package: *\nPin: origin apt.syncthing.net\nPin-Priority: 990\n" | sudo t
 # Update and install syncthing:
 sudo apt-get update
 sudo apt-get install -y syncthing
+
+
+#>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+COMMENTOUT
+
+sudo apt-add-repository ppa:fish-shell/release-3
+sudo apt update
+sudo apt install fish
 
 
