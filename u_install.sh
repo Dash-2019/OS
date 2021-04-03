@@ -8,17 +8,8 @@ sudo apt -y install syncthing
 
 #>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
 COMMENTOUT
-
-
-sudo apt install git cmake make xorg-dev g++ libcurl4-openssl-dev \
-                 libavahi-compat-libdnssd-dev libssl-dev libx11-dev \
-                 libqt4-dev qtbase5-dev
-
-git clone https://github.com/debauchee/barrier.git
-cd barrier
-./clean_build.sh
-cd build
-sudo make install
+sudo apt update
+sudo apt install libflatpak-dev
 
 
 
