@@ -6,6 +6,9 @@ sudo apt -y install syncthing
 
 
 
+#>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+COMMENTOUT
+
 
 sudo apt install git cmake make xorg-dev g++ libcurl4-openssl-dev \
                  libavahi-compat-libdnssd-dev libssl-dev libx11-dev \
@@ -17,10 +20,6 @@ cd barrier
 cd build
 sudo make install
 
-#>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
-COMMENTOUT
 
-sudo add-apt-repository ppa:alexlarsson/flatpak
-sudo apt install flatpak gnome-software-plugin-flatpak
-flatpak remote-add --if-not-exists flathub https://flathub.org/repo/flathub.flatpakrepo
+
 
