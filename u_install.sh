@@ -10,8 +10,6 @@ sudo apt -y install syncthing
 COMMENTOUT
 
 
-add-apt-repository ppa:alexlarsson/flatpak
-apt install flatpak gnome-software-plugin-flatpak
-flatpak remote-add --if-not-exists flathub https://flathub.org/repo/flathub.flatpakrepo
+sudo snap install barrier
 
 
