@@ -37,9 +37,9 @@ yes | sudo snap install pycharm-community --classic --edge
 
 # 7---upgrade Libreoffice-----------------
 
-yes | sudo add-apt-repository ppa:libreoffice/ppa 
-sudo apt-get update 
-yes | sudo apt-get dist-upgrade 
+yes | sudo add-apt-repository ppa:libreoffice/ppa
+sudo apt-get update
+yes | sudo apt-get dist-upgrade
 
 #8----------------------------------------
 sudo apt install -y keepassxc
@@ -77,5 +77,4 @@ echo "deb https://apt.syncthing.net/ syncthing stable" | sudo tee /etc/apt/sourc
 sudo apt update
 sudo apt -y install syncthing
 
-
-
+#EE
