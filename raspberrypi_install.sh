@@ -12,7 +12,6 @@ sudo apt-get install fonts-ipafont-gothic fonts-ipafont-mincho
 COMMENTOUT
 
 #-----------------------------------------
-#ステップ1 — install MySQL
-sudo apt install mysql-server -y
-#ステップ2 — MySQLの設定
-sudo mysql_secure_installation
+sudo apt-get install mariadb-server
+
+
