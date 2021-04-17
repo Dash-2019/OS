@@ -68,11 +68,18 @@ sudo apt -y install syncthing
 #2021/4/17 (土) 21:14
 sudo apt install python3-pip -y
 pip3 install selenium
+sudo apt install chromium-chromedriver
 
 #>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
 COMMENTOUT
 
 wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb
 sudo apt install ./google-chrome-stable_current_amd64.deb
+
+
+#ステップ1 — install MySQL
+sudo apt install mysql-server -y
+#ステップ2 — MySQLの設定
+sudo mysql_secure_installation
 
 
