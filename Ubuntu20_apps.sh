@@ -29,7 +29,7 @@ sudo add-apt-repository 'deb https://typora.io/linux ./'
 sudo apt-get update
 sudo apt-get -y install typora
 
-#-6----------------------------------------
+#-6--pycharm-community-------------------------------
 sudo apt update
 #No module named 'distutils.util'でget-pip.pyで使えない
 sudo apt-get install -y python3-distutils
@@ -58,9 +58,21 @@ echo "deb https://apt.syncthing.net/ syncthing stable" | sudo tee /etc/apt/sourc
 sudo apt update
 sudo apt -y install syncthing
 
+
+
+#2021/4/11 (日) 7:47
+#wget https://download.teamviewer.com/download/linux/teamviewer_amd64.deb
+#sudo apt install ./teamviewer_amd64.deb -yes
+
+#11 -----------------------------------------
+#2021/4/17 (土) 21:14
+sudo apt install python3-pip -y
+pip3 install selenium
+
 #>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
 COMMENTOUT
 
-#2021/4/11 (日) 7:47
-wget https://download.teamviewer.com/download/linux/teamviewer_amd64.deb
-sudo apt install ./teamviewer_amd64.deb -yes
+wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb
+sudo apt install ./google-chrome-stable_current_amd64.deb
+
+
