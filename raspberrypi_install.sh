@@ -17,7 +17,8 @@ wget https://github.com/jjhelmus/berryconda/releases/download/v2.0.0/Berryconda3
 chmod +x Berryconda3-2.0.0-Linux-armv7l.sh
 ./Berryconda3-2.0.0-Linux-armv7l.sh
 
+#4 Vim   --------------------------
 
-
+sudo apt install -y vim
 #>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
 COMMENTOUT
