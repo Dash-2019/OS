@@ -22,3 +22,16 @@ chmod +x Berryconda3-2.0.0-Linux-armv7l.sh
 sudo apt install -y vim
 #>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
 COMMENTOUT
+
+sudo apt-get install python-dev default-libmysqlclient-dev -y
+pip install mysqlclient
+
+#No module named sqlalchemy -----------------
+pip install flask_sqlalchemy
+
+#sudoなしで mysql -u root -p が動作するようにする
+# mariaDBにて設定する PDFあり
+
+
+
+
