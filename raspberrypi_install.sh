@@ -32,6 +32,8 @@ pip install flask_sqlalchemy
 #sudoなしで mysql -u root -p が動作するようにする
 # mariaDBにて設定する PDFあり
 
+pip install selenium
+
 
 
 
