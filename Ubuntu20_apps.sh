@@ -79,14 +79,17 @@ wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb
 sudo apt install ./google-chrome-stable_current_amd64.deb
 
 
+#13 MySQL ーーーーーーーーーーーーーーー
 #ステップ1 — install MySQL
 sudo apt install mysql-server -y
 #ステップ2 — MySQLの設定
 sudo mysql_secure_installation
 
+#14 man 日本語変更ーーーーーーーーーーーーーーー
 sudo apt-get update
 sudo apt-get install ebview
 
 
-
+#14 man 日本語変更ーーーーーーーーーーーーーーー
+sudo apt-get install manpages-ja
 
