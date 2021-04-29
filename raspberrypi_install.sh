@@ -20,9 +20,9 @@ chmod +x Berryconda3-2.0.0-Linux-armv7l.sh
 #4 Vim   --------------------------
 
 sudo apt install -y vim
-#>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
-COMMENTOUT
 
+
+#5 MySQL --------------------------
 sudo apt-get install python-dev default-libmysqlclient-dev -y
 pip install mysqlclient
 
@@ -32,8 +32,10 @@ pip install flask_sqlalchemy
 #sudoなしで mysql -u root -p が動作するようにする
 # mariaDBにて設定する PDFあり
 
-pip install selenium
+
+#6 man 日本語変更｀ーーーーーーーーーーーーーーー
+sudo apt-get install manpages-ja
 
 
-
-
+#>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+COMMENTOUT
