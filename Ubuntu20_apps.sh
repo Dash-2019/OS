@@ -70,8 +70,6 @@ sudo apt install python3-pip -y
 pip3 install selenium
 sudo apt install chromium-chromedriver
 
-#>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
-COMMENTOUT
 
 #12 chrome -----------------------------------------
 
@@ -90,6 +88,27 @@ sudo apt-get update
 sudo apt-get install ebview
 
 
-#14 man 日本語変更ーーーーーーーーーーーーーーー
+#15 man 日本語変更ーーーーーーーーーーーーーーー
 sudo apt-get install manpages-ja
+
+#16 dockerーーーーーーーーーーーーーーー
+sudo apt update
+#次に、 aptがHTTPS経由でパッケージを使用できるようにするいくつかの必要条件パッケージをインストールします。
+sudo apt install apt-transport-https ca-certificates curl software-properties-common
+curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo apt-key add -
+#DockerリポジトリをAPTソースに追加します。
+sudo add-apt-repository "deb [arch=amd64] https://download.docker.com/linux/ubuntu focal stable"
+sudo apt update
+sudo apt install docker-ce
+sudo systemctl status docker
+
+
+#>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+COMMENTOUT
+
+
+
+
+
+
 
