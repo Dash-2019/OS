@@ -95,21 +95,10 @@ sudo apt-get install manpages-ja
 COMMENTOUT
 
 #16 dockerーーーーーーーーーーーーーーー
-sudo apt update
-#次に、 aptがHTTPS経由でパッケージを使用できるようにするいくつかの必要条件パッケージをインストールします。
-sudo apt install apt-transport-https ca-certificates curl software-properties-common
-curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo apt-key add -
-#DockerリポジトリをAPTソースに追加します。
-sudo add-apt-repository "deb [arch=amd64] https://download.docker.com/linux/ubuntu focal stable"
-sudo apt update
-sudo apt install docker-ce
-#ステップ2— SudoなしでDockerコマンドを実行する
+sudo apt  install -y docker.io  # version 20.10.2-0ubuntu1~20.04.2
 sudo usermod -aG docker ${USER}
 su - ${USER}
-sudo systemctl status docker
-
-
-
+#sudo systemctl status docker
 
 
 
