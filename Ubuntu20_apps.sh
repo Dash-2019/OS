@@ -91,6 +91,9 @@ sudo apt-get install ebview
 #15 man 日本語変更ーーーーーーーーーーーーーーー
 sudo apt-get install manpages-ja
 
+#>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+COMMENTOUT
+
 #16 dockerーーーーーーーーーーーーーーー
 sudo apt update
 #次に、 aptがHTTPS経由でパッケージを使用できるようにするいくつかの必要条件パッケージをインストールします。
@@ -106,8 +109,6 @@ su - ${USER}
 sudo systemctl status docker
 
 
-#>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
-COMMENTOUT
 
 
 
