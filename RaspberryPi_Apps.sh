@@ -1,7 +1,7 @@
 #!/bin/bash
 
 << COMMENTOUT
-#<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<--
+curl https://raw.githubusercontent.com/Dash-2019/pc_setup/master/RaspberryPi_Apps.sh | sh -s
 
 # 2021/4/17 (土) 21:52
 sudo pip3 install selenium
