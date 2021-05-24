@@ -2,7 +2,7 @@
 
 echo installing package 21/03/27
 << COMMENTOUT
-#<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<--
+curl https://raw.githubusercontent.com/Dash-2019/pc_setup/master/Ubuntu20_apps.sh | sh -s
 
 sudo apt update
 #-1----------------------------------------
@@ -91,8 +91,7 @@ sudo apt-get install ebview
 #15 man 日本語変更ーーーーーーーーーーーーーーー
 sudo apt-get install manpages-ja
 
-#>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
-COMMENTOUT
+
 
 #16 dockerーーーーーーーーーーーーーーー
 sudo apt  install -y docker.io  # version 20.10.2-0ubuntu1~20.04.2
@@ -100,6 +99,26 @@ sudo apt  install -y docker-compose
 sudo usermod -aG docker ${USER}
 su - ${USER}
 #sudo systemctl status docker
+
+#>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+COMMENTOUT
+
+#17 Powershell------------------------------
+# Update the list of packages
+sudo apt-get update
+# Install pre-requisite packages.
+sudo apt-get install -y wget apt-transport-https software-properties-common
+# Download the Microsoft repository GPG keys
+wget -q https://packages.microsoft.com/config/ubuntu/16.04/packages-microsoft-prod.deb
+# Register the Microsoft repository GPG keys
+sudo dpkg -i packages-microsoft-prod.deb
+# Update the list of packages after we added packages.microsoft.com
+sudo apt-get update
+# Install PowerShell
+sudo apt-get install -y powershell
+# Start PowerShell
+pwsh
+
 
 
 
