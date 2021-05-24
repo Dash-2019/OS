@@ -1,7 +1,7 @@
 #!/bin/bash
 
 << COMMENTOUT
-curl https://raw.githubusercontent.com/Dash-2019/pc_setup/master/conda_setup_pi.sh | sh -s
+curl https://raw.githubusercontent.com/Dash-2019/pc_setup/master/conda_pi.sh | sh -s
 
 # 2021/4/21
 #仮想環境-------------------
