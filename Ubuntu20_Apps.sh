@@ -2,7 +2,7 @@
 
 echo installing package 21/03/27
 << COMMENTOUT
-curl https://raw.githubusercontent.com/Dash-2019/pc_setup/master/Ubuntu20_apps.sh | sh -s
+curl https://raw.githubusercontent.com/Dash-2019/pc_setup/master/Ubuntu20_Apps.sh | sh -s
 
 sudo apt update
 #-1----------------------------------------
@@ -116,8 +116,6 @@ sudo dpkg -i packages-microsoft-prod.deb
 sudo apt-get update
 # Install PowerShell
 sudo apt-get install -y powershell
-# Start PowerShell
-pwsh
 
 
 
