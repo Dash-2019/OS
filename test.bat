@@ -1,3 +1,3 @@
 echo windows test
-conda -V
-pause
+conda install numpy
+
