@@ -100,8 +100,6 @@ sudo usermod -aG docker ${USER}
 su - ${USER}
 #sudo systemctl status docker
 
-#>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
-COMMENTOUT
 
 #17 Powershell------------------------------
 # Update the list of packages
@@ -118,8 +116,14 @@ sudo apt-get update
 sudo apt-get install -y powershell
 
 
+#18 XnView------------------------------
+sudo apt-get update
+sudo apt install libopenal1 -y
+wget https://download.xnview.com/XnViewMP-linux-x64.deb
+sudo apt install ./XnViewMP-linux-x64.deb
 
-
-
+sudo apt install geeqie
+#>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+COMMENTOUT
 
 
