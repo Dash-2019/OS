@@ -51,6 +51,11 @@ sudo apt-get update
 sudo apt-get install samba samba-common-bin
 
 
+# web server apache2---------------
+
+sudo apt install apache2 -y
+sudo apt install php7.0
+
 
 #>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
 COMMENTOUT
