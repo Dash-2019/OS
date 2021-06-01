@@ -43,5 +43,14 @@ sudo apt-get install manpages-ja
 # docker instal ----------------------------
 curl -sSL https://get.docker.com | sh
 
+
+
+# samba----------------
+
+sudo apt-get update
+sudo apt-get install samba samba-common-bin
+
+
+
 #>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
 COMMENTOUT
