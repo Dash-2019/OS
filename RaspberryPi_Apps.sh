@@ -52,9 +52,27 @@ sudo apt-get install samba samba-common-bin
 
 
 # web server apache2---------------
-
+sudo apt update
 sudo apt install apache2 -y
-sudo apt install php7.0
+sudo apt install php7.4 -y
+sudo apt-get install -y php-mysql
+
+
+#5 WordPressをインストール
+#インストール場所に移動
+cd /var/www/html
+
+#WordPressの直近版をダウンロード
+sudo wget http://wordpress.org/latest.tar.gz
+
+#tarを展開、html配下に移動、ゴミ掃除
+sudo tar xzf latest.tar.gz
+sudo mv wordpress/* .
+sudo rm latest.tar.gz
+sudo rmdir wordpress
+
+
+
 
 
 #>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
