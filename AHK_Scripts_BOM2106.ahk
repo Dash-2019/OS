@@ -12,7 +12,7 @@
 /*
 ..RLoginSSH
 */
-#IfWinActive ahk_class Afx:00007FF6476D0000:8:0000000000010003:0000000000000000:00000000001F0211
+#IfWinActive ahk_exe RLoginSSH.exe
 
 
 /*
