@@ -126,7 +126,9 @@ sudo apt install geeqie
 
 #19 net-tools------------------------------
 sudo apt install net-tools
-#>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+
+
+#20 AutoKey---------------------
+sudo apt install autokey-gtk
+
 COMMENTOUT
-
-
