@@ -8,11 +8,11 @@ sudo apt update
 #-1----------------------------------------
 sudo apt -y install git
 
-#-2----------------------------------------
+#-2 Atom ------------------------------------
 sudo apt update
 yes | sudo snap install atom --classic
 
-#-3----------------------------------------
+#-3  chromium--------------------------------
 sudo apt install -y chromium-browser
 #yes | sudo snap install chromium
 
@@ -41,17 +41,17 @@ yes | sudo add-apt-repository ppa:libreoffice/ppa
 sudo apt-get update
 yes | sudo apt-get dist-upgrade
 
-#8----------------------------------------
+#8  keepassxc----------------------------------
 sudo apt install -y keepassxc
 
-#9 -----------------------------------------
+#9 fish --------------------------------------
 sudo apt-add-repository ppa:fish-shell/release-3
 sudo apt update
 sudo apt install -y fish
 
 
 
-#10 -----------------------------------------
+#10 syncthing------------------------------------
 
 curl -s https://syncthing.net/release-key.txt | sudo apt-key add -
 echo "deb https://apt.syncthing.net/ syncthing stable" | sudo tee /etc/apt/sources.list.d/syncthing.list
@@ -128,7 +128,9 @@ sudo apt install geeqie
 sudo apt install net-tools
 
 
-#20 AutoKey---------------------
+#20 AutoKey-------------------------------
 sudo apt install autokey-gtk
 
+# 21 barrier sharemouse ------------------
+sudo snap install barrier
 COMMENTOUT
