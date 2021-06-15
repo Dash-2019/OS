@@ -5,6 +5,10 @@ echo installing package 21/03/27
 curl https://raw.githubusercontent.com/Dash-2019/pc_setup/master/Ubuntu20_Apps.sh | sh -s
 
 sudo apt update
+
+echo 1907 | sudo -S apt install ssh -y
+sudo systemctl start sshd
+
 #-1----------------------------------------
 sudo apt -y install git
 
@@ -132,5 +136,6 @@ sudo apt install net-tools
 sudo apt install autokey-gtk
 
 # 21 barrier sharemouse ------------------
+sudo apt install snapd
 sudo snap install barrier
 COMMENTOUT

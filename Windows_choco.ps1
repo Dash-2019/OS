@@ -3,7 +3,7 @@ Set-ExecutionPolicy Bypass -Scope Process -Force; [System.Net.ServicePointManage
 
 choco install atom vim vscode typora --yes
 
-choco install powershell-core --yes
+choco install powershell-core rpi-imager--yes
 
 choco instal vlc greenshot --yes
 
