@@ -22,6 +22,9 @@ echo 1907 | sudo -S apt install openssh-server -y
 sudo systemctl start ssh
 sudo systemctl enable ssh
 
-COMMENTOUT
+
 # 3--git
 sudo apt install git -y
+COMMENTOUT
+
+sudo apt install -y vlc
