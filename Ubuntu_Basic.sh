@@ -24,4 +24,4 @@ sudo systemctl enable ssh
 
 COMMENTOUT
 # 3--git
-sudo apt install git
+sudo apt install git -y
