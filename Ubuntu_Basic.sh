@@ -22,6 +22,18 @@ echo 1907 | sudo -S apt install openssh-server -y
 sudo systemctl start ssh
 sudo systemctl enable ssh
 
-COMMENTOUT
+
 # 3--git
 sudo apt install git -y
+
+
+sudo apt install -y vlc
+COMMENTOUT
+
+#-2 Atom ------------------------------------
+sudo apt update
+yes | sudo snap install atom --classic
+
+#-3  chromium--------------------------------
+sudo apt install -y chromium-browser
+#yes | sudo snap install chromium
