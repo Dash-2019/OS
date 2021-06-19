@@ -2,7 +2,7 @@
 
 echo installing package 21/03/27
 << COMMENTOUT
-curl https://raw.githubusercontent.com/Dash-2019/pc_setup/master/Ubuntu20_Apps.sh | sh -s
+curl -sf https://raw.githubusercontent.com/Dash-2019/pc_setup/master/Ubuntu20_Apps.sh | sh -s
 
 sudo apt update
 
@@ -19,6 +19,10 @@ sudo apt install -y chromium-browser
 
 #-4-----------------------------------------
 sudo apt install -y vlc
+sudo add-apt-repository ppa:nemonein/bomi
+sudo apt update
+sudo apt-get install bomi -y
+
 #sudo apt install -y vlc-plugin-access-extra libbluray-bdj libdvdcss2
 
 # 5-typora--------------------------------
