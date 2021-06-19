@@ -9,7 +9,7 @@ gsettings set org.gnome.desktop.screensaver ubuntu-lock-on-suspend false
 #ブランクスクリーンからの復帰時の設定。
 gsettings set org.gnome.desktop.screensaver idle-activation-enabled false
 
-COMMENTOUT
+
 
 # 1 barrier sharemouse
 sudo apt update
@@ -22,5 +22,6 @@ echo 1907 | sudo -S apt install openssh-server -y
 sudo systemctl start ssh
 sudo systemctl enable ssh
 
+COMMENTOUT
 # 3--git
 sudo apt install git
