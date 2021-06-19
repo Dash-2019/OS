@@ -6,9 +6,6 @@ curl https://raw.githubusercontent.com/Dash-2019/pc_setup/master/Ubuntu20_Apps.s
 
 sudo apt update
 
-echo 1907 | sudo -S apt install ssh -y
-sudo systemctl start sshd
-
 #-1----------------------------------------
 sudo apt -y install git
 
@@ -53,20 +50,11 @@ sudo apt-add-repository ppa:fish-shell/release-3
 sudo apt update
 sudo apt install -y fish
 
-
-
 #10 syncthing------------------------------------
-
 curl -s https://syncthing.net/release-key.txt | sudo apt-key add -
 echo "deb https://apt.syncthing.net/ syncthing stable" | sudo tee /etc/apt/sources.list.d/syncthing.list
 sudo apt update
 sudo apt -y install syncthing
-
-
-
-#2021/4/11 (日) 7:47
-#wget https://download.teamviewer.com/download/linux/teamviewer_amd64.deb
-#sudo apt install ./teamviewer_amd64.deb -yes
 
 #11 -----------------------------------------
 #2021/4/17 (土) 21:14
@@ -74,12 +62,9 @@ sudo apt install python3-pip -y
 pip3 install selenium
 sudo apt install chromium-chromedriver
 
-
 #12 chrome -----------------------------------------
-
 wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb
 sudo apt install ./google-chrome-stable_current_amd64.deb
-
 
 #13 MySQL ーーーーーーーーーーーーーーー
 #ステップ1 — install MySQL
@@ -91,11 +76,8 @@ sudo mysql_secure_installation
 sudo apt-get update
 sudo apt-get install ebview
 
-
 #15 man 日本語変更ーーーーーーーーーーーーーーー
 sudo apt-get install manpages-ja
-
-
 
 #16 dockerーーーーーーーーーーーーーーー
 sudo apt  install -y docker.io  # version 20.10.2-0ubuntu1~20.04.2
@@ -103,7 +85,6 @@ sudo apt  install -y docker-compose
 sudo usermod -aG docker ${USER}
 su - ${USER}
 #sudo systemctl status docker
-
 
 #17 Powershell------------------------------
 # Update the list of packages
@@ -138,4 +119,12 @@ sudo apt install autokey-gtk
 # 21 barrier sharemouse ------------------
 sudo apt install snapd
 sudo snap install barrier
+
+# 22 ansible
+sudo apt update
+sudo apt install ansible -y
+
+
+
+
 COMMENTOUT
