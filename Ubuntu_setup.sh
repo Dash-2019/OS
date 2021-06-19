@@ -17,7 +17,7 @@ yes | sudo snap install atom --classic
 sudo apt install -y chromium-browser
 #yes | sudo snap install chromium
 
-#-4-----------------------------------------
+#-4- Multiplayer -----------------------------
 sudo apt install -y vlc
 sudo add-apt-repository ppa:nemonein/bomi
 sudo apt update
