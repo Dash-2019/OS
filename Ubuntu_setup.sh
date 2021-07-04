@@ -23,6 +23,8 @@ sudo add-apt-repository ppa:nemonein/bomi
 sudo apt update
 sudo apt-get install bomi -y
 
+# kodi //Open Source Home Theater Software |
+
 #sudo apt install -y vlc-plugin-access-extra libbluray-bdj libdvdcss2
 
 # 5-typora--------------------------------
@@ -129,6 +131,25 @@ sudo apt update
 sudo apt install ansible -y
 
 
+sudo apt install wine64 -y
 
+#SpaceFM マルチパネルとタブが使えるファイルマネージャー
+sudo apt install spacefm-gtk3 -y
+
+#ティスプレイマネージャー gdm3/slim
+#sudo apt-get install -y slim
+#sudo dpkg-reconfigure gdm3
 
 COMMENTOUT
+
+
+
+
+# sudo apt-add-repository ppa:fish-shell/release-2
+# Press [ENTER] to continue or Ctrl-c to cancel adding it.
+# yes '' | sudo add-apt-repository ppa:nginx/stable
+
+
+yes '' | sudo apt-add-repository ppa:fish-shell/release-2
+sudo apt-get update
+sudo apt-get install fish

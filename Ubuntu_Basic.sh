@@ -1,5 +1,7 @@
 #!/bin/bash
 << COMMENTOUT
+
+COMMENTOUT
 #curl url |sh -s
 #url= https://raw.githubusercontent.com/Dash-2019/pc_setup/master/Ubuntu_Basic.sh
 #ロックスクリーンを無効に。以下のコマンドを実行します。
@@ -28,7 +30,7 @@ sudo apt install git -y
 
 
 sudo apt install -y vlc
-COMMENTOUT
+
 
 #-2 Atom ------------------------------------
 sudo apt update

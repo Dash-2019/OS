@@ -9,7 +9,7 @@
 */
 
 
-/*
+/*---------------------
 ..RLoginSSH
 */
 #IfWinActive ahk_exe RLoginSSH.exe
@@ -26,6 +26,48 @@
 
 #IfWinActive
 ;============================
+
+
+
+/*
+..MPC-BE media
+*/
+
+#IfWinActive ahk_exe mpc-be64.exe
+
+/*
+...F = Full Screen
+...M = Mute
+*/
+
+
+f::send,^{enter}
+m::send,^m
+
+
+
+
+
+
+
+
+#IfWinActive
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

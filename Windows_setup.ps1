@@ -5,11 +5,15 @@
 #choco upgrade chocolatey
 
 <#
-choco install powershell-core rpi-imager--yes
-
+choco install powershell-core rpi-imager --yes
+choco install microsoft-windows-terminal --yes
+choco install fluent-terminal --yes
 # Server---------------------------------
 # - OpenSSH server
 choco install openssh -params '"/SSHServerFeature"' -confirm
+choco install rlogin --y
+#choco install teraterm --y
+choco install mobaxterm --y
 
 # - SQL server
 choco install mysql --yes
