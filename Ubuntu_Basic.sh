@@ -39,3 +39,10 @@ yes | sudo snap install atom --classic
 #-3  chromium--------------------------------
 sudo apt install -y chromium-browser
 #yes | sudo snap install chromium
+
+# 4 web server apache2 php mariadb wordpress
+sudo apt install apache2 -y
+sudo apt install php libapache2-mod-php -y
+sudo apt install php-fpm php-common php-mbstring php-xmlrpc php-gd php-xml php-mysql php-cli php-zip php-curl php-imagick
+sudo a2enmod rewrite
+sudo service apache2 restart
