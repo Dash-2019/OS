@@ -37,6 +37,9 @@ choco instal irfanview greenshot --yes
 choco install atom vim vscode typora notepadplusplus --yes
 
 # Utility--------------------------------
+choco install f.lux tablacus
+choco install avgantivirusfree
+
 choco install mousewithoutborders strokesplus everything ultrasearch --yes
 choco install winscp.install rufus hwinfo.install greenshot --yes
 
