@@ -19,6 +19,9 @@ choco install mobaxterm --y
 choco install mysql --yes
 choco install mariadb --yes
 
+choco install -y apache-httpd php composer
+
+
 # Virtual Machine---------------------
 choco install docker-desktop github git.install virtualbox --yes
 choco install vagrant --yes
