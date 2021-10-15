@@ -34,10 +34,10 @@ choco instal vlc mpc-be --yes
 choco instal irfanview greenshot --yes
 
 # Editor----------------------------------
-choco install atom vim vscode typora --yes
+choco install atom vim vscode typora notepadplusplus --yes
 
 # Utility--------------------------------
-choco install autoruns everything --yes
+choco install mousewithoutborders strokesplus everything ultrasearch --yes
 choco install winscp.install rufus hwinfo.install greenshot --yes
 
 #>
