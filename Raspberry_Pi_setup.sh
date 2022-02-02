@@ -57,5 +57,15 @@ COMMENTOUT
 
 #sudo apt update
 
+#Connect to Raspberry Pi via SSH and execute command to download GPG key:
+sudo wget -qO /etc/apt/trusted.gpg.d/php.gpg https://packages.sury.org/php/apt.gpg
+
+#Add PHP repository:
+echo "deb https://packages.sury.org/php/ $(lsb_release -sc) main" | sudo tee /etc/apt/sources.list.d/php.list
+sudo apt update
+
+#Next, install PHP 8.1 with command line interface (CLI):
+sudo apt install -y php8.1-common php8.1-cli
+php --version
 
 
