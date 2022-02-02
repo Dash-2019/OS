@@ -69,16 +69,18 @@ php --version
 COMMENTOUT
 
 
+
+
+#1.パッケージのアップデートを確認
+
+sudo apt update 
+#2.software-properties-commonパッケージをインストールする。
+sudo apt install software-properties-common
+#3. リポジトリを追加する
+sudo add-apt-repository ppa:ondrej/php
+#4. 再度パッケージをアップデートする。(①同じ手順です)
 sudo apt update
-sudo apt-get install mariadb-server
-sudo apt update
-sudo apt install -y php8.1-extension_name
-sudo apt install -y php8.1-curl php8.1-gd php8.1-mbstring php8.1-xml php8.1-zip
-sudo apt install -y php8.1-mysql
-sudo apt install -y libapache2-mod-php8.1
-sudo service apache2 restart
-
-
-
+#5. PHPをインストールする
+sudo apt install php7.4
 
 
