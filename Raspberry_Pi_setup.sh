@@ -52,11 +52,9 @@ sudo mv wordpress/* .
 sudo rm latest.tar.gz
 sudo rmdir wordpress
 
-#>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
-COMMENTOUT
 
-#sudo apt update
 
+## PHP8.1-------------
 #Connect to Raspberry Pi via SSH and execute command to download GPG key:
 sudo wget -qO /etc/apt/trusted.gpg.d/php.gpg https://packages.sury.org/php/apt.gpg
 
@@ -67,5 +65,20 @@ sudo apt update
 #Next, install PHP 8.1 with command line interface (CLI):
 sudo apt install -y php8.1-common php8.1-cli
 php --version
+#>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+COMMENTOUT
+
+
+sudo apt update
+sudo apt-get install mariadb-server
+sudo apt update
+sudo apt install -y php8.1-extension_name
+sudo apt install -y php8.1-curl php8.1-gd php8.1-mbstring php8.1-xml php8.1-zip
+sudo apt install -y php8.1-mysql
+sudo apt install -y libapache2-mod-php8.1
+sudo service apache2 restart
+
+
+
 
 
