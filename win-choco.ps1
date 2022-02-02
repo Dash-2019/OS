@@ -5,4 +5,4 @@
 ここもコメントです。
 ここまでがコメントブロックです。#>
 
-cinst -y irfanview
+cinst -y greenshot
