@@ -25,39 +25,33 @@ pip install mysqlclient
 #No module named sqlalchemy ----------
 pip install flask_sqlalchemy
 
-#sudoなしで mysql -u root -p が動作するようにする
-# mariaDBにて設定する PDFあり
-
 # docker instal ----------------------------
 curl -sSL https://get.docker.com | sh
 
 
-#WordPressの直近版をダウンロード
-sudo wget http://wordpress.org/latest.tar.gz
-
-#tarを展開、html配下に移動、ゴミ掃除
-sudo tar xzf latest.tar.gz
-sudo mv wordpress/* .
-sudo rm latest.tar.gz
-sudo rmdir wordpress
-
-## Anydesk-------------
+## Anydesk------------------------------------------------------
 sudo apt-get install -y libegl1-mesa
 sudo apt update
 wget https://download.anydesk.com/rpi/anydesk_6.1.1-1_armhf.deb
 sudo dpkg -i anydesk_6.1.1-1_armhf.deb
 sudo apt-get install -f
 
-#>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
-COMMENTOUT
-
-
-# web server   ---------------
+# web server   --------------------------------------------------
 sudo apt-get install -y mariadb-server
 sudo apt update
 sudo apt install -y  apache2
 sudo apt-get update
-sudo apt-get install samba samba-common-bin
+sudo apt instal -y php php-cli php-curl php-mysql
+sudo apt-get update
+sudo apt install -y phpmyadmin
+
+
+# samba--------------------------------------------------------
+sudo apt-get install -y samba samba-common-bin
+#>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+COMMENTOUT
+
+
 
 
 
