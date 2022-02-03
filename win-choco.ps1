@@ -5,4 +5,4 @@ echo test
 ここもコメントです。
 ここまでがコメントブロックです。
 cinst -y greenshot #>
-date
+cinst firefox notepadplusplus --yes
