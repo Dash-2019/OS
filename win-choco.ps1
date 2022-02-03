@@ -5,4 +5,4 @@ echo test
 ここもコメントです。
 ここまでがコメントブロックです。
 cinst -y greenshot #>
-cinst firefox notepadplusplus --yes
+cinst rpi-imager --yes
