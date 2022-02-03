@@ -4,6 +4,5 @@ echo test
 ここもコメントです。
 ここもコメントです。
 ここまでがコメントブロックです。
-cinst -y greenshot 
-#>
+cinst -y greenshot #>
 date
