@@ -38,9 +38,7 @@ sudo apt-get install samba samba-common-bin
 
 # web server apache2---------------
 sudo apt update
-sudo apt install -y samba apache2
-
-
+sudo apt install -y  apache2
 
 
 #WordPressの直近版をダウンロード
@@ -51,7 +49,6 @@ sudo tar xzf latest.tar.gz
 sudo mv wordpress/* .
 sudo rm latest.tar.gz
 sudo rmdir wordpress
-
 
 
 ## PHP8.1-------------
@@ -69,18 +66,12 @@ php --version
 COMMENTOUT
 
 
-
-
-#1.パッケージのアップデートを確認
-
-sudo apt update 
-#2.software-properties-commonパッケージをインストールする。
-sudo apt install software-properties-common
-#3. リポジトリを追加する
-sudo add-apt-repository ppa:ondrej/php
-#4. 再度パッケージをアップデートする。(①同じ手順です)
+sudo apt-get install -y libegl1-mesa
 sudo apt update
-#5. PHPをインストールする
-sudo apt install php7.4
+wget https://download.anydesk.com/rpi/anydesk_6.1.1-1_armhf.deb
+sudo dpkg -i anydesk_6.1.1-1_armhf.deb
+sudo apt-get install -f
+
+
 
 
