@@ -1,8 +1,9 @@
-#echo install-------
+echo test
 <# ここからコメントブロックが始まります。
 ここもコメントです。
 ここもコメントです。
 ここもコメントです。
-ここまでがコメントブロックです。#>
-
-cinst -y greenshot
+ここまでがコメントブロックです。
+cinst -y greenshot 
+#>
+date
