@@ -36,6 +36,9 @@ wget https://download.anydesk.com/rpi/anydesk_6.1.1-1_armhf.deb
 sudo dpkg -i anydesk_6.1.1-1_armhf.deb
 sudo apt-get install -f
 
+# samba--------------------------------------------------------
+sudo apt-get install -y samba samba-common-bin
+
 # web server   --------------------------------------------------
 sudo apt-get install -y mariadb-server
 sudo apt update
@@ -46,13 +49,26 @@ sudo apt-get update
 sudo apt install -y phpmyadmin
 
 
-# samba--------------------------------------------------------
-sudo apt-get install -y samba samba-common-bin
+
+
+
 #>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
 COMMENTOUT
 
 
 
+	
+#// libnss3-toolsインストール
+sudo apt update
+sudo apt install -y libnss3-tools
+
+#// mkcertインストール
+wget -O mkcert https://github.com/FiloSottile/mkcert/releases/download/v1.4.1/mkcert-v1.4.1-linux-arm
+chmod +x mkcert
+sudo mv mkcert /usr/local/bin/
+
+#// 動作確認
+mkcert --help
 
 
 
