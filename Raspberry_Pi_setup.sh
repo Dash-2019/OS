@@ -50,7 +50,7 @@ sudo apt install -y phpmyadmin
 
 
 
-
+# phpmyadmin 1907 login
 
 #>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
 COMMENTOUT
