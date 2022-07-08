@@ -45,5 +45,7 @@ choco install avgantivirusfree
 
 choco install mousewithoutborders strokesplus everything ultrasearch --yes
 choco install winscp.install rufus hwinfo.install greenshot --yes
+# mouse windows and linux
+choco install barrier -y
 
 #>
