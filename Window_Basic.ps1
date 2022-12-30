@@ -17,3 +17,4 @@ choco install google-pinyin rlogin winscp --y
 ===============================
 #>
 
+choco install simple-sticky-notes --y
