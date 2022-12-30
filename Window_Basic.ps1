@@ -9,11 +9,11 @@ choco install f.lux hwinfo autohotkey autoit --y
 choco install beeftext qdir displayfusion --y
 
 # Editor--------------
-choco install atom vscode sublimetext4 --yes
-choco install notepadplusplus --yes
+choco install atom vscode sublimetext4 notepadplusplus --yes
+
+choco install obsidian bitcomet --y
+choco install google-pinyin rlogin winscp --y
 
 ===============================
 #>
-
-choco install obsidian bitcomet --y
 
