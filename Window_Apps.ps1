@@ -6,7 +6,9 @@ Run as Admin
 choco install googlechrome firefox --yes
 
 # Utility-------------
-choco install mousewithoutborders strokesplus everything --yes
+choco install mousewithoutborders strokesplus --y
+
+choco install ultrasearch everything --yes
 
 choco install f.lux hwinfo autohotkey autoit --y
 choco install beeftext qdir displayfusion --y
