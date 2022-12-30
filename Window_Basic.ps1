@@ -15,7 +15,10 @@ choco install beeftext qdir displayfusion --y
 choco install atom vscode sublimetext4 notepadplusplus --yes
 
 choco install obsidian bitcomet --y
-choco install rlogin winscp simple-sticky-notes --y
+#choco install rlogin winscp 
 
+choco install winrar libreoffice simple-sticky-notes --y
 ===============================
 #>
+
+
