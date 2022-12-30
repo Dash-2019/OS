@@ -1,14 +1,13 @@
-<#  
+<# 
 ===============================
-choco install mousewithoutborders strokesplus everything --yes
-===============================
-#>
+Run as Admin
 
 #Brower----------------
 choco install googlechrome firefox --yes
 
 # Utility-------------
-choco install mousewithoutborders strokesplus --yes
+choco install mousewithoutborders strokesplus everything --yes
+
 choco install f.lux hwinfo autohotkey autoit --y
 choco install beeftext qdir displayfusion --y
 
@@ -16,7 +15,7 @@ choco install beeftext qdir displayfusion --y
 choco install atom vscode sublimetext4 notepadplusplus --yes
 
 choco install obsidian bitcomet --y
-choco install google-pinyin rlogin winscp --y
+choco install rlogin winscp simple-sticky-notes --y
 
-
-choco install simple-sticky-notes --y
+===============================
+#>
