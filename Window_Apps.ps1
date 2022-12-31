@@ -24,3 +24,5 @@ choco install winrar libreoffice-fresh simple-sticky-notes --y
 #>
 
 choco install adobereader --y
+choco install dropbox --y
+
