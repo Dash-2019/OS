@@ -27,5 +27,7 @@ choco install greenshot imageglass --y
 choco install adobereader dropbox --y
 choco install python anaconda3 mariadb --y
 
+choco install 4k-video-downloader 4k-video-to-mp3 --y
+
 ===============================
 #>
