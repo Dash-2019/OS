@@ -8,7 +8,7 @@
 #choco install rlogin winscp --y
 ===============================
 #>
-choco install firefox --yes
+choco install firefox vlc --yes
 
 # Utility-------------
 choco install mousewithoutborders strokesplus --y
