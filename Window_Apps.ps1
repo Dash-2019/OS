@@ -1,13 +1,12 @@
 <# 
 ===============================
 #Run as Admin
-#choco install googlechrome firefox --yes
-#choco install atom 
+choco install avgantivirusfree --y
+#choco install googlechrome firefox vlc --yes
 
-# Server -----------------
-#choco install rlogin winscp --y
-===============================
 #>
+
+
 choco install firefox vlc --yes
 
 # Utility-------------
