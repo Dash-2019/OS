@@ -27,6 +27,7 @@ choco install greenshot imageglass --y
 # Programming
 choco install dropbox --y
 choco install python anaconda3 mariadb --y
-
-choco install calibre
+choco install r r.studio --y
+#eBooks
+choco install calibre -y
 
