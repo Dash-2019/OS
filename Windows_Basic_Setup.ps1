@@ -5,7 +5,7 @@
 #>
 #Run as Admin
 
-choco install googlechrome firefox vlc --yes
+choco install firefox vlc --yes
 
 # Utility-------------
 choco install mousewithoutborders strokesplus --y
