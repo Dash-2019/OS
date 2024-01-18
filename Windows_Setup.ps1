@@ -4,9 +4,9 @@
 -------------------
 #>
 #Run as Admin
-#choco install avastfreeantivirus -y
-
-choco install firefox vlc --yes
+choco install avastfreeantivirus -y
+choco install firefox vivaldi -y
+choco install mpc-be vlc -y
 
 # Utility-------------
 choco install strokesplus everything -y
@@ -16,24 +16,22 @@ choco install beeftext qdir --y
 choco install winrar bitcomet keepassxc --y
 choco install simple-sticky-notes --y
 choco install displayfusion ClipboardFusion -y
+#choco install mousewithoutborders --y
 
 # Editor--------------
 choco install obsidian vscode sublimetext4 notepadplusplus --yes
 
 #eBooks
 #choco install calibre -y
-#choco install mousewithoutborders --y
 
 # Photo--------------
 choco install imageglass --y
 choco install xnviewmp irfanview fsviewer -y
 
 # Office
-choco install libreoffice-fresh -y
+#choco install libreoffice-fresh -y
 #choco install dropbox --y
 
 # Programming
 #choco install python anaconda3 mariadb --y
 #choco install r r.studio --y
-
-
