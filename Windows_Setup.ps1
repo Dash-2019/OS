@@ -33,6 +33,7 @@ choco install xnviewmp irfanview fsviewer -y
 #choco install dropbox --y
 choco install adobereader pdfxchangeeditor pdfxchangeviewer -y
 choco install greenshot picpick.portable -y
+choco install teamviewer anydesk.install -y
 
 
 # Programming-----------------------------------
