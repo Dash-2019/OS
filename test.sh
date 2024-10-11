@@ -1,2 +1,0 @@
-scoop list
-scoop help
