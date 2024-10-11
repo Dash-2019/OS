@@ -1,5 +1,6 @@
-#Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope CurrentUser
-#Invoke-RestMethod -Uri https://get.scoop.sh | Invoke-Expression
+##################################################
+# install Scoop
+##################################################
 
 # インストールディレクトリの設定 (user)
 #$env:SCOOP='C:\abc'
@@ -8,7 +9,6 @@
 # インストールディレクトリの設定 (global)
 #$env:SCOOP_GLOBAL='D:\GlobalScoopApps'
 #[Environment]::SetEnvironmentVariable('SCOOP_GLOBAL', $env:SCOOP_GLOBAL, 'Machine')
-
 
 try {
   # Scoopのインストール確認
@@ -29,9 +29,23 @@ scoop install 7zip
 # add bucket
 scoop bucket add extras
 scoop bucket add versions
+scoop bucket add sysinternals
+scoop bucket add dorado https://github.com/chawyehsu/dorado
 
 # Scoopのインストールディレクトリの取得
-$SCOOP_ROOT = if ($env:SCOOP) {$env:SCOOP} else {"$home\scoop"}
+#$SCOOP_ROOT = if ($env:SCOOP) {$env:SCOOP} else {"$home\scoop"}
 
-scoop install extras/potplayer
+#scoop install extras/potplayer
 #scoop install time openssl
+
+scoop install powershell
+
+scoop install extras/greenshot
+
+scoop install extras/brave
+scoop install extras/googlechrome
+
+scoop install extras/everything
+
+
+
