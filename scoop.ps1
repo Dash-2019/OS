@@ -1,8 +1,7 @@
-#-------------------------------------------------
-# install choco
+# install choco -----------------------------------------------
 Set-ExecutionPolicy Bypass -Scope Process -Force; [System.Net.ServicePointManager]::SecurityProtocol = [System.Net.ServicePointManager]::SecurityProtocol -bor 3072; iex ((New-Object System.Net.WebClient).DownloadString('https://community.chocolatey.org/install.ps1'))
-#-------------------------------------------------
-# install Scoop
+
+# install Scoop -----------------------------------------------
 # インストールディレクトリの設定 (user)
 #$env:SCOOP='C:\abc'
 #[Environment]::SetEnvironmentVariable('SCOOP', $env:SCOOP, 'User')
@@ -10,7 +9,6 @@ Set-ExecutionPolicy Bypass -Scope Process -Force; [System.Net.ServicePointManage
 # インストールディレクトリの設定 (global)
 #$env:SCOOP_GLOBAL='D:\GlobalScoopApps'
 #[Environment]::SetEnvironmentVariable('SCOOP_GLOBAL', $env:SCOOP_GLOBAL, 'Machine')
-
 try {
   # Scoopのインストール確認
   get-command scoop -ErrorAction Stop
