@@ -35,6 +35,7 @@ scoop install brave
 scoop install eartrumpet
 scoop install espanso
 scoop install everything
+scoop install f.lux
 scoop install foxit-pdf-reader
 scoop install googlechrome
 scoop install greenshot
