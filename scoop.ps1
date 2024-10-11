@@ -1,7 +1,8 @@
-##################################################
+#-------------------------------------------------
+# install choco
+Set-ExecutionPolicy Bypass -Scope Process -Force; [System.Net.ServicePointManager]::SecurityProtocol = [System.Net.ServicePointManager]::SecurityProtocol -bor 3072; iex ((New-Object System.Net.WebClient).DownloadString('https://community.chocolatey.org/install.ps1'))
+#-------------------------------------------------
 # install Scoop
-##################################################
-
 # インストールディレクトリの設定 (user)
 #$env:SCOOP='C:\abc'
 #[Environment]::SetEnvironmentVariable('SCOOP', $env:SCOOP, 'User')
@@ -20,32 +21,40 @@ catch [Exception] {
   Invoke-Expression (New-Object System.Net.WebClient).DownloadString('https://get.scoop.sh')
 }
 
-# install basic module
+# install basic module ------------------------------
 scoop install aria2
 scoop install git
 scoop install sudo
 scoop install 7zip
 
-# add bucket
+# add bucket----------------------------------------
 scoop bucket add extras
 scoop bucket add versions
 scoop bucket add sysinternals
 scoop bucket add dorado https://github.com/chawyehsu/dorado
 
-# Scoopのインストールディレクトリの取得
-#$SCOOP_ROOT = if ($env:SCOOP) {$env:SCOOP} else {"$home\scoop"}
-
-#scoop install extras/potplayer
-#scoop install time openssl
-
+# add Apps--------------------------------------------
+scoop install autologon
+scoop install beeftext
+scoop install brave
+scoop install eartrumpet
+scoop install espanso
+scoop install everything
+scoop install foxit-pdf-reader
+scoop install googlechrome
+scoop install greenshot
+scoop install irfanview
+scoop install keepassxc
+scoop install libreoffice
+scoop install notepadplusplus
+scoop install potplayer
 scoop install powershell
+scoop install vlc
+scoop install vscode
+scoop install xnviewmp
 
-scoop install extras/greenshot
 
-scoop install extras/brave
-scoop install extras/googlechrome
 
-scoop install extras/everything
 
 
 
