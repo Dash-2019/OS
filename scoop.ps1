@@ -27,6 +27,7 @@ scoop bucket add extras
 scoop bucket add versions
 scoop bucket add sysinternals
 scoop bucket add dorado https://github.com/chawyehsu/dorado
+scoop bucket add iyokan-jp https://github.com/tetradice/scoop-iyokan-jp
 # ----------------------------------------------------
 # add Apps
 scoop install autologon
@@ -37,11 +38,14 @@ scoop install espanso
 scoop install everything
 scoop install f.lux
 scoop install foxit-pdf-reader
+scoop install Groonga #全文検索
 scoop install googlechrome
 scoop install greenshot
 scoop install irfanview
+scoop install inazumasearch　#全文検索
 scoop install keepassxc
 scoop install libreoffice
+scoop install mery
 scoop install notepadplusplus
 scoop install potplayer
 scoop install powershell
