@@ -10,4 +10,4 @@ scoop bucket add extras
 scoop bucket add versions
 
 scoop install extras/potplayer
-scoop install 7zip sudo git time openssl
+#scoop install 7zip sudo git time openssl
