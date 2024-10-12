@@ -1,17 +1,7 @@
 # ----------------------------------------------------
 # install Scoop
-# インストールディレクトリの設定 (user)
-#$env:SCOOP='C:\abc'
-#[Environment]::SetEnvironmentVariable('SCOOP', $env:SCOOP, 'User')
-try {
-  # Scoopのインストール確認
-  get-command scoop -ErrorAction Stop
-} 
-catch [Exception] {
-  # Scoopのインストール
-  Set-ExecutionPolicy RemoteSigned -scope CurrentUser
-  Invoke-Expression (New-Object System.Net.WebClient).DownloadString('https://get.scoop.sh')
-}
+Set-ExecutionPolicy RemoteSigned -scope CurrentUser
+Invoke-Expression (New-Object System.Net.WebClient).DownloadString('https://get.scoop.sh')
 # ----------------------------------------------------
 # install basic module
 scoop install aria2
