@@ -25,11 +25,13 @@ scoop bucket add versions
 scoop bucket add sysinternals
 scoop bucket add dorado https://github.com/chawyehsu/dorado
 scoop bucket add iyokan-jp https://github.com/tetradice/scoop-iyokan-jp
+scoop bucket add nonportable
 # ----------------------------------------------------
 # add Apps
 scoop install autologon
 scoop install beeftext
 scoop install brave
+scoop install nonportable/dropbox-np
 scoop install eartrumpet
 scoop install espanso
 scoop install everything
