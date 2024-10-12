@@ -32,7 +32,7 @@ scoop install autologon
 scoop install extras/barrier
 scoop install beeftext
 scoop install brave
-scoop install nonportable/dropbox-np
+#scoop install nonportable/dropbox-np
 scoop install eartrumpet
 scoop install espanso
 scoop install everything
