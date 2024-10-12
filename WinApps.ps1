@@ -19,7 +19,7 @@ scoop bucket add nonportable
 # ----------------------------------------------------
 # add Apps
 scoop install autologon
-scoop install extras/barrier
+#scoop install extras/barrier
 scoop install beeftext
 scoop install brave
 #scoop install nonportable/dropbox-np
