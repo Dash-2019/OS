@@ -35,3 +35,12 @@ sudo apt install apt-transport-https
 sudo apt update
 sudo apt install code -y # or code-insiders
 
+sudo apt update
+sudo add-apt-repository universe
+sudo apt install gnome-tweaks 
+
+sudo apt update && sudo apt install synaptic 
+
+
+
+
