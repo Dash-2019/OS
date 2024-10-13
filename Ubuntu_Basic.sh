@@ -42,10 +42,8 @@ sudo apt update && sudo apt install synaptic
 
 COMMENTOUT
 
-sudo add-apt-repository ppa:nathan-renniewaldock/flux
-sudo apt-get update
-sudo apt-get install fluxgui
-
-
+sudo apt-get install python3-pexpect python3-distutils python3-xdg gir1.2-ayatanaappindicator3-0.1 gir1.2-gtk-3.0 redshift
+gir1.2-appindicator3-0.1 python3-gi python3-gi-cairo
+sudo apt-get install git python-gconf python-gtk2 python-glade2 libxxf86vm1 libcanberra-gtk-module
 
 
