@@ -17,16 +17,5 @@ gsettings set org.gnome.desktop.screensaver ubuntu-lock-on-suspend false
 gsettings set org.gnome.desktop.screensaver idle-activation-enabled false
 
 # 1 barrier sharemouse
-sudo apt-get install cmake curl libcurl-dev 
-sudo apt-get install libavahi-compat-libdnssd-dev
-sudo apt-get install libxtst-dev
-sudo apt-get install qtbase5-dev qtdeclarative5-dev 
-sudo apt-get install libssl-dev
-git clone https://github.com/debauchee/barrier.git
-cd barrier
-./clean_build.sh
-cd build
-sudo make install
-
-
+sudo apt install barrier
 
