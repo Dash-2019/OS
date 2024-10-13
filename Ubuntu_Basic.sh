@@ -24,7 +24,6 @@ echo "deb [signed-by=/usr/share/keyrings/brave-browser-archive-keyring.gpg] http
 sudo apt update
 sudo apt install brave-browser -y
 
-COMMENTOUT
 
 # sudo apt-get install wget gpg
 wget -qO- https://packages.microsoft.com/keys/microsoft.asc | gpg --dearmor > packages.microsoft.gpg
@@ -40,6 +39,12 @@ sudo add-apt-repository universe
 sudo apt install gnome-tweaks 
 
 sudo apt update && sudo apt install synaptic 
+
+COMMENTOUT
+
+sudo add-apt-repository ppa:nathan-renniewaldock/flux
+sudo apt-get update
+sudo apt-get install fluxgui
 
 
 
