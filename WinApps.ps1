@@ -1,4 +1,5 @@
-<# ----------------------------------------------------
+# 管理者権限で実行
+# sousoukou----------------------------------------------------
 # install Scoop
 Set-ExecutionPolicy RemoteSigned -scope CurrentUser
 Invoke-Expression (New-Object System.Net.WebClient).DownloadString('https://get.scoop.sh')
