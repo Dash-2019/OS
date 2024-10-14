@@ -17,7 +17,7 @@ scoop install brave googlechrome
 scoop install eartrumpet
 scoop install foxit-pdf-reader
 scoop install greenshot irfanview
-scoop install Groonga inazumasearch #全文検索
+scoop install inazumasearch #全文検索Groonga
 scoop install keepassxc
 scoop install libreoffice
 scoop install mery notepadplusplus
