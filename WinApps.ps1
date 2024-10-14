@@ -12,7 +12,7 @@ scoop bucket add nonportable
 scoop install 7zip aria2 git sudo #basic module
 scoop install anydesk autologon f.lux
 #scoop install barrier
-scoop install beeftext espanso everything
+scoop install beeftext espanso everything strokesplus
 scoop install brave googlechrome
 scoop install eartrumpet
 scoop install foxit-pdf-reader
