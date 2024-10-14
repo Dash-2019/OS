@@ -34,6 +34,6 @@ choco install displayfusion -y
 choco install mousewithoutborders -y
 choco install googledrive -y
 choco install qdir -y
-choco install powershell-core
+choco install powershell-core -y
 
 #choco install avastfreeantivirus
