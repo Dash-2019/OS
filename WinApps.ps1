@@ -1,5 +1,7 @@
 # SSH Server
 Add-WindowsCapability -Online -Name OpenSSH.Server~~~~0.0.1.0
+Start-Service sshd
+
 # install Scoop choco管理者権限で実行-----------------------
 Set-ExecutionPolicy RemoteSigned -scope CurrentUser
 Invoke-Expression (New-Object System.Net.WebClient).DownloadString('https://get.scoop.sh')
