@@ -13,7 +13,7 @@ sudo dnf -y install epel-release
 sudo dnf update -y
 sudo dnf -y install vlc
 sudo dnf -y install qbittorrent qt5-qtsvg
-
+sudo yum -y install libreoffice libreoffice-langpack-ja
 COMMENTOUT
 
 sudo dnf update -y
@@ -25,3 +25,4 @@ sudo rpm --import https://packages.microsoft.com/keys/microsoft.asc
 echo -e "[code]\nname=Visual Studio Code\nbaseurl=https://packages.microsoft.com/yumrepos/vscode\nenabled=1\ngpgcheck=1\ngpgkey=https://packages.microsoft.com/keys/microsoft.asc" | sudo tee /etc/yum.repos.d/vscode.repo > /dev/null
 dnf check-update
 sudo dnf -y install code # or code-insiders
+
