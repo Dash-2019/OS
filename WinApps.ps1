@@ -39,5 +39,9 @@ choco install mousewithoutborders -y
 choco install googledrive -y
 choco install qdir -y
 choco install powershell-core -y
-
 #choco install avastfreeantivirus
+
+choco install anaconda3 -y
+# PDF OCR 
+choco install tesseract poppler
+choco install poppler
