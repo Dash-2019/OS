@@ -32,13 +32,13 @@ scoop install xnviewmp
 # install choco ------------------------------------
 Set-ExecutionPolicy Bypass -Scope Process -Force; [System.Net.ServicePointManager]::SecurityProtocol = [System.Net.ServicePointManager]::SecurityProtocol -bor 3072; iex ((New-Object System.Net.WebClient).DownloadString('https://community.chocolatey.org/install.ps1'))
 
+choco install powershell-core -y
 choco install bitcomet -y
 choco install clipboardfusion -y
 choco install displayfusion -y
 choco install mousewithoutborders -y
 choco install googledrive -y
 choco install qdir -y
-choco install powershell-core -y
 #choco install avastfreeantivirus
 
 choco install anaconda3 -y
