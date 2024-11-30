@@ -39,6 +39,7 @@ choco install displayfusion -y
 choco install mousewithoutborders -y
 choco install googledrive -y
 choco install qdir -y
+choco install rlogin -y
 #choco install avastfreeantivirus
 
 choco install anaconda3 -y
