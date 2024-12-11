@@ -13,24 +13,21 @@ scoop bucket add dorado https://github.com/chawyehsu/dorado
 scoop bucket add iyokan-jp https://github.com/tetradice/scoop-iyokan-jp
 scoop bucket add nonportable
 # basic module -------------------------------------------
-scoop install 7zip aria2 git sudo #basic module
-scoop install anydesk autologon f.lux
+scoop install 7zip aria2 git sudo
+scoop install anydesk autologon f.lux keepassxc
 #scoop install barrier espanso
-scoop install beeftext everything strokesplus
+scoop install beeftext everything 
 scoop install brave googlechrome
-scoop install eartrumpet
-scoop install foxit-pdf-reader
-scoop install greenshot irfanview xnviewmp
-#全文検索Groonga
-scoop install inazumasearch 
-scoop install keepassxc
-scoop install libreoffice
+scoop install greenshot irfanview xnviewmp eartrumpet potplayer vlc
+scoop install inazumasearch #全文検索Groonga
+scoop install libreoffice foxit-pdf-reader
 scoop install mery notepadplusplus vscode sublime-text atom
-scoop install potplayer vlc
+
 
 # install choco ------------------------------------
 Set-ExecutionPolicy Bypass -Scope Process -Force; [System.Net.ServicePointManager]::SecurityProtocol = [System.Net.ServicePointManager]::SecurityProtocol -bor 3072; iex ((New-Object System.Net.WebClient).DownloadString('https://community.chocolatey.org/install.ps1'))
 
+choco install strokesplus
 choco install powershell-core -y
 choco install bitcomet -y
 choco install clipboardfusion -y
