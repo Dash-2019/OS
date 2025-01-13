@@ -8,4 +8,8 @@ COMMENTOUT
 echo "Hi, install start--!" 
 # Homebrew git無理
 brew install --cask google-chrome
+brew install --cask brave-browser
 brew install --cask google-drive
+brew install --cask typora
+brew install --cask iterm2
+brew install --cask clipy
