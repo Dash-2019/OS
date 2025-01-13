@@ -13,3 +13,6 @@ brew install --cask google-drive
 brew install --cask typora
 brew install --cask iterm2
 brew install --cask clipy
+brew install --cask visual-studio-code
+brew install --cask keepassxc
+brew install --cask sublime-text
