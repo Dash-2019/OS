@@ -4,5 +4,7 @@ echo installing package 2025/09/08
 << COMMENTOUT
 curl -sf https://raw.githubusercontent.com/Dash-2019/OS/refs/heads/master/WSL-Ubuntu.sh | sh -s
 
+curl -sf https://raw.githubusercontent.com/Dash-2019/pc_setup/master/Ubuntu_Basic.sh | sh -s
+
 COMMENTOUT
 echo --end--WSL-Ubuntu-
