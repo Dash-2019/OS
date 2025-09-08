@@ -1,12 +1,10 @@
 #!/bin/bash
 echo installing start -------
 << COMMENTOUT
-2025/09/08
 curl -sf https://raw.githubusercontent.com/Dash-2019/OS/refs/heads/master/WSL_Ubuntu.sh | sh -s
-COMMENTOUT
 
-# 01 WSL2のUbuntuにDockerをインストールする
-#--- Dockerのaptリポジトリからインストールする
+# 01 Dockerのaptリポジトリからインストールする
+#--- created at 2025/09/08
 sudo apt-get update
 sudo apt-get upgrade -y
 #--- Dockerをインストールするために必要なパッケージをインストールしていきます。
@@ -24,7 +22,13 @@ echo \
 sudo apt-get update
 sudo apt-get install -y docker-ce docker-ce-cli containerd.io docker-buildx-plugin docker-compose-pluginsudo apt-get update
 sudo apt-get install -y docker-ce docker-ce-cli containerd.io docker-buildx-plugin docker-compose-plugin
+# ===END install ===
+
+COMMENTOUT
+
+# 02 
+#--- created at 2025/09/08
 
 
-#=========================
-echo ===END===WSL_Ubuntu
+
+echo ======END of script======
