@@ -22,6 +22,9 @@ echo \
 sudo apt-get update
 sudo apt-get install -y docker-ce docker-ce-cli containerd.io docker-buildx-plugin docker-compose-pluginsudo apt-get update
 sudo apt-get install -y docker-ce docker-ce-cli containerd.io docker-buildx-plugin docker-compose-plugin
+#--- 非ルートユーザでdockerコマンドを有効化する
+sudo usermod -aG docker $USER
+
 # ===END install ===
 
 COMMENTOUT
