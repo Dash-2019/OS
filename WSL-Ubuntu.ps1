@@ -1,7 +1,8 @@
 #!/bin/bash
 
-echo installing package 21/03/27
+echo installing package 2025/09/08
 << COMMENTOUT
-curl -sf https://raw.githubusercontent.com/Dash-2019/pc_setup/master/Ubuntu20_Apps.sh | sh -s
+curl -sf https://raw.githubusercontent.com/Dash-2019/OS/refs/heads/master/WSL-Ubuntu.ps1h | sh -s
 
 COMMENTOUT
+echo --end--WSL-Ubuntu-
