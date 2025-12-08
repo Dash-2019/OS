@@ -28,6 +28,17 @@ echo \
 sudo apt-get update
 sudo apt-get install -y docker-ce docker-ce-cli containerd.io docker-buildx-plugin docker-compose-pluginsudo apt-get update
 sudo apt-get install -y docker-ce docker-ce-cli containerd.io docker-buildx-plugin docker-compose-plugin
+docker compose version
 
+
+#-- add NVM nodejs
+# .bashrcを更新した時に、ターミナルを再起動しただけではシェルの設定は反映されない。
+# 必ず以下のコマンドを叩いて、シェルの設定を反映させる必要がある。
+sudo apt-get update
+curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.1/install.sh | bash
+source ~/.bashrc
+nvm install 22
+# Vue CLI
+yarn global add @vue/cli
 
 echo ======END of script======
