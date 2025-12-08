@@ -7,6 +7,12 @@ curl -sf https://raw.githubusercontent.com/Dash-2019/OS/refs/heads/master/WSL_Ub
 #--- created at 2025/09/08
 sudo apt-get update
 sudo apt-get upgrade -y
+
+#--- 非ルートユーザでdockerコマンドを有効化する
+sudo usermod -aG docker $USER
+
+COMMENTOUT
+
 #--- Dockerをインストールするために必要なパッケージをインストールしていきます。
 sudo apt-get install ca-certificates gnupg
 #--- Docker公式のGPGキーを登録していきます。
@@ -22,16 +28,6 @@ echo \
 sudo apt-get update
 sudo apt-get install -y docker-ce docker-ce-cli containerd.io docker-buildx-plugin docker-compose-pluginsudo apt-get update
 sudo apt-get install -y docker-ce docker-ce-cli containerd.io docker-buildx-plugin docker-compose-plugin
-#--- 非ルートユーザでdockerコマンドを有効化する
-sudo usermod -aG docker $USER
-
-# ===END install ===
-
-COMMENTOUT
-
-# 02 
-#--- created at 2025/09/08
-
 
 
 echo ======END of script======
