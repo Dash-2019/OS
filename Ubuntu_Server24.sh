@@ -1,0 +1,13 @@
+#!/bin/bash
+<< COMMENTOUT
+COMMENTOUT
+
+#1 dockerーーーーーーーーーーーーーーー
+sudo apt  install -y docker.io  # version 20.10.2-0ubuntu1~20.04.2
+sudo apt  install -y docker-compose
+sudo usermod -aG docker ${USER}
+su - ${USER}
+
+
+
+
