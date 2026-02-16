@@ -1,5 +1,6 @@
 #!/bin/bash
 << COMMENTOUT
+curl -sf https://raw.githubusercontent.com/Dash-2019/OS/refs/heads/master/Ubuntu_Server24.sh | sh -s
 COMMENTOUT
 
 #1 dockerーーーーーーーーーーーーーーー
