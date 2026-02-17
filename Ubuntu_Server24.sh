@@ -3,23 +3,13 @@
 curl -sf https://raw.githubusercontent.com/Dash-2019/OS/refs/heads/master/Ubuntu_Server24.sh | sh -s
 COMMENTOUT
 
-# Dockerのリポジトリを設定する
-#1 apt パッケージを更新します。
+#Dockerのリポジトリを設定する
 #sudo apt update
+#sudo snap install docker
+#docker compose version
 
-#2 必要なパッケージをインストールします
-sudo apt install apt-transport-https ca-certificates gnupg-agent software-properties-common
-
-# 3.Docker 公式の GPG 公開鍵をインストールします。
-curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo apt-key add -
-
-# 4 fingerprint 9DC8 5822 9FC7 DD38 854A E2D8 8D81 803C 0EBF CD88であることを確認します。
-sudo apt-key fingerprint 0EBFCD88
-
-# 5. repository (stable) を追加します
-sudo add-apt-repository  "deb [arch=amd64] https://download.docker.com/linux/ubuntu $(lsb_release -cs) stable"
-
-# 最新版のDocker をインストールします。
+sudo add-apt-repository ppa:neovim-ppa/stable
 sudo apt update
-sudo apt-get install docker-ce docker-ce-cli containerd.io
+sudo apt install neovim
+nvim --version 
 
