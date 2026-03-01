@@ -3,8 +3,9 @@
 echo installing package 21/03/27
 << COMMENTOUT
 curl -sf https://raw.githubusercontent.com/Dash-2019/pc_setup/master/Ubuntu20_Apps.sh | sh -s
+https://raw.githubusercontent.com/Dash-2019/OS/refs/heads/master/Ubuntu24Desktop.sh
 
-sudo apt update
+sudo apt-get update
 
 #-1----------------------------------------
 sudo apt -y install git
