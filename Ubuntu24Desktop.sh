@@ -1,7 +1,7 @@
 #!/bin/bash
 << COMMENTOUT
 # シェルスプリプトや自動化、aptよりもapt-getを使用することが推奨されています。 
-# curl -sf https://raw.githubusercontent.com/Dash-2019/pc_setup/master/Ubuntu20_Apps.sh | sh -s
+# curl -sf https://raw.githubusercontent.com/Dash-2019/OS/refs/heads/master/Ubuntu24Desktop.sh | sh -s
 
 # curl install------
 sudo apt-get update && sudo apt-get install -y curl
@@ -10,7 +10,6 @@ sudo apt-get update && sudo apt-get install -y curl
 sudo apt-get install -y openssh-server
 sudo systemctl start ssh
 sudo systemctl enable ssh
-
 
 #docker ===================
 #①Dockerをインストールするために、まず依存関係のあるパッケージをインストールします。
@@ -27,7 +26,6 @@ echo "deb [arch=$(dpkg --print-architecture) signed-by=/etc/apt/keyrings/docker.
 sudo apt-get update && sudo apt-get install -y docker-ce docker-ce-cli containerd.io docker-compose-plugin
 
 sudo apt-get install -y nextcloud-desktop
-
 
 
 COMMENTOUT
